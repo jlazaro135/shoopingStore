@@ -1,0 +1,55 @@
+
+body{
+    margin: 0 auto;
+    max-width: 768px;
+    padding-right: 0!important;
+}
+
+/* override bootstrap property values  */
+header nav .active{
+    background-color: #c6c7c8!important;
+    color: rgb(31, 44, 40)!important;
+}
+header nav .nav-link{
+    color:rgb(255, 255, 255);
+}
+main{
+    min-height: 500px;
+}
+main .carousel img{
+    min-height: 500px;
+    object-fit: cover;
+    cursor: pointer;
+}
+/* icono carrito alineación */
+i::before{
+    vertical-align: revert!important;
+}
+main section div.product-card {
+    background-color:#c6c7c8;
+    border: none!important;
+    transition: all ease-in-out 0.3s;
+    top: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    justify-content: space-between; 
+}
+main section div.product-card:hover, main section div.product-card:active, main section div.product-card:focus {
+    box-shadow: 0 0 20px rgba(10, 36, 153, 0.5);
+    top: -5px;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
