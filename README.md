@@ -26,7 +26,7 @@ Para los modales que aparecen cuando se añade un producto he incorporado la lib
 
 ### Links
 
-- URL prueba: ()
+- URL prueba: (https://myspecialshoppingstore.netlify.app)
 
 ### Comentarios
 
